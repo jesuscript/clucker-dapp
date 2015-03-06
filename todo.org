@@ -1,0 +1,8 @@
+CURRENT
+* TODO reactive tweet reading
+* TODO tweeting
+BACKLOG
+* TODO web3 monitoring
+
+DONE
+* TODO 
