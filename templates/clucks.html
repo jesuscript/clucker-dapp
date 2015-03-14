@@ -1,0 +1,30 @@
+<template name="cluckItem">
+  <li>
+    <h4>{{senderName}}</h4>
+    <p>
+      {{body}}
+    </p>
+  </li>
+</template>
+
+<template name="clucks">
+  <div class="container-fluid">
+    <div class="row">
+      <section id="clucks" class="col-md-6 col-md-offset-3">
+        <div >
+          {{#if clucks }}
+            <ul class="clucks">
+              {{#each clucks }}
+                {{> cluckItem this}}
+              {{/each}}
+            </ul>
+          {{else}}
+            <p class="text-center">
+              No one has clucked yet. Be the first!
+            </p>
+          {{/if}}
+        </div>
+      </section>
+    </div>
+  </div>
+</template>

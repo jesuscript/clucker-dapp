@@ -16,7 +16,7 @@ contract twitter {
 
 	function tweet(string32 t1,string32 t2,string32 t3){
 		Tweet t = tweets[tweet_count];
-		t.twat = msg.sender;
+		t.sender = msg.sender;
 
 		t.tweet_text[0] = t1;
 		t.tweet_text[1] = t2;
@@ -39,3 +39,4 @@ contract twitter {
 		return tweet_count;
 	}
 }
+

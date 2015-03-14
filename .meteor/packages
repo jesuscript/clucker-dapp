@@ -5,10 +5,12 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 iron:router
 ethereum:js
 3stack:bignumber
 twbs:bootstrap
 less
+aldeed:simple-schema
+aldeed:collection2
+dburles:collection-helpers
+stevezhu:lodash

@@ -1,3 +1,38 @@
-input[type=text].form-control{
-  height: 34px;
+@import "lib/colors";
+body{
+  background: url("/images/clucker_bgd_720.png") center center no-repeat fixed;
+  background-size: cover;
+}
+#clucker-dapp{
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      list-style-type: none;
+    }
+  }
+  section{
+    background-color: @bg-light;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+  .page{
+    margin-top: 70px;
+  }
+  .btn-primary{
+    background-color: #fff;
+    color: @text-blue;
+    &:hover{
+      background-color: @bg-yellow;
+    }
+  }
+  section{
+    padding-bottom: 15px;
+    background-color: rgba(255,255,255,0.7);
+    &.blue{
+      background-color: @bg-blue;
+      color: #fff;
+    }
+  }
 }

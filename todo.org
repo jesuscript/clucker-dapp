@@ -1,8 +1,25 @@
-CURRENT
-* TODO reactive tweet reading
-* TODO tweeting
-BACKLOG
-* TODO web3 monitoring
+* CURRENT
+** DONE reactive tweet reading
+   CLOSED: [2015-03-10 Tue 17:36]
+*** DONE read on active
+   CLOSED: [2015-03-10 Tue 10:38]
+*** DONE update on new block
+    CLOSED: [2015-03-10 Tue 17:36]
+** DONE tweeting
+   CLOSED: [2015-03-12 Thu 15:04]
+*** DONE slice and submit a tweet
+    CLOSED: [2015-03-10 Tue 19:12]
+*** DONE X characters left
+    CLOSED: [2015-03-12 Thu 15:04]
+** DONE show balance
+   CLOSED: [2015-03-12 Thu 15:04]
+** DONE show coinbase
+   CLOSED: [2015-03-12 Thu 15:04]
+** DONE register name
+   CLOSED: [2015-03-12 Thu 15:04]
+** TODO styling
+* BACKLOG
+** TODO web3 monitoring
+** TODO (?) persistent tweet collection
 
-DONE
-* TODO 
+

@@ -1,0 +1,38 @@
+<template name="navbarConnect">
+  <p class="navbar-text">
+    Status:
+    {{#if connected}}
+      <span class="text-success">Online</span>
+    {{else}}
+      <span class="text-danger">Offline</span>
+    {{/if}}
+  </p>
+  {{#if connected}}
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="#" data-toggle="modal" data-target="#register-modal">
+          {{#if registered}}
+            Change name
+          {{else}}
+            Register
+          {{/if}}
+        </a>
+      </li>
+      
+      <li>
+        <a href="#" btn-disconnect>
+          Disconnect
+        </a>
+      </li>
+    </ul>
+  {{else}}
+    <form class="navbar-form navbar-right" form-connect>
+      <div class="form-group">
+        <input type="text" class="form-control" value="http://localhost:8080"/>
+      </div>
+      <button class="btn btn-default" type="submit">
+        Connect
+      </button>
+    </form>
+  {{/if}}
+</template>

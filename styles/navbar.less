@@ -2,9 +2,11 @@
 
 #navbar{
   border-radius: 0;
-  background-color: @bg-dark;
+  background-color: #fff;
+  border: 0;
+  opacity: 0.7;
   p, a{
-    color: @text-light;
+    color: @text-blue;
   }
   .navbar-brand{
     padding: 5px 15px;
@@ -15,5 +17,11 @@
   .logo{
     height: 100%;
     display: inline-block;
+  }
+
+  a:hover,
+  a:focus {
+    color: @text-yellow;
+    background-color: #fff;
   }
 }
