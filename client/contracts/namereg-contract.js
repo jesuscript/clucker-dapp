@@ -1,6 +1,6 @@
 NameregContract = new Contract({
   src: "/contracts/namereg.sol",
-  address: "0x49699194ece4a9fca6be2f2b718c9fe964d0b87f",
+  address: "",
   
   desc: [{
     name: "register(string32)",

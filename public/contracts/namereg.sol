@@ -3,7 +3,6 @@ contract Namereg {
 
   function register(string32 name){
       names[msg.sender] = name;
-        
   }
 
   function getName(address a) returns(string32 name){

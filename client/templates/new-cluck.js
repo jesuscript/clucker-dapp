@@ -3,7 +3,7 @@ Template.newCluck.events({
     e.preventDefault();
     var $text = tmpl.$(".cluck-text");
     var body = $text.val().match(/.{1,32}/g);
-    TwitterContract.tweet(body[0] || "", body[1] ||"", body[2] ||"");
+    CluckerContract.cluck(body[0] || "", body[1] ||"", body[2] ||"");
 
     $text.val("");
 
